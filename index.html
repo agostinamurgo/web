@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Herramientas de IA para Presentaciones y Páginas Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Herramientas de IA para Crear Presentaciones y Páginas Web</h1>
+        <p>Explora las mejores herramientas basadas en IA para mejorar tu productividad.</p>
+    </header>
+
+    <!-- Lista de herramientas IA -->
+    <section id="tools-list">
+        <ul>
+            <li onclick="showDetails('tool1')">Beautiful.AI</li>
+            <li onclick="showDetails('tool2')">Copy.ai</li>
+            <li onclick="showDetails('tool3')">Zyro</li>
+            <li onclick="showDetails('tool4')">Jasper AI</li>
+            <li onclick="showDetails('tool5')">Webflow (IA de diseño web)</li>
+        </ul>
+    </section>
+
+    <!-- Modal de detalles -->
+    <div id="tool-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2 id="tool-title"></h2>
+            <p id="tool-description"></p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
